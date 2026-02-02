@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,4 +8,103 @@
   <style>
     body {
       margin: 0;
-      font-family
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #f9f9f9;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 3rem 1rem;
+    }
+
+    h1, h2 {
+      line-height: 1.2;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    }
+
+    .cta {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Business Name</h1>
+    <p>Clear one-sentence description of what you do.</p>
+  </header>
+
+  <section>
+    <h2>What We Do</h2>
+    <p>
+      Brief explanation of your services or product.
+      Focus on the problem you solve and who you help.
+    </p>
+  </section>
+
+  <section>
+    <h2>Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Service One</h3>
+        <p>Short description of the service.</p>
+      </div>
+      <div class="card">
+        <h3>Service Two</h3>
+        <p>Short description of the service.</p>
+      </div>
+      <div class="card">
+        <h3>Service Three</h3>
+        <p>Short description of the service.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Get in Touch</h2>
+    <p>Email: <a href="mailto:contact@yourbusiness.com">contact@yourbusiness.com</a></p>
+  </section>
+
+  <footer>
+    © 2026 Your Business Name. All rights reserved.
+  </footer>
+
+</body>
+</html>
